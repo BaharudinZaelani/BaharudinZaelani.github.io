@@ -5,3 +5,6 @@ body {
 .navbarKu {
 	padding: 20px 0;
 }
+.list-group-item {
+	background-color: #f8f9fa!important;
+}
