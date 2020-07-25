@@ -5,6 +5,16 @@ body {
 .navbarKu {
 	padding: 20px 0;
 }
-.list-group-item {
+.list-group-item, .card {
 	background-color: #f8f9fa!important;
+}
+.card {
+	border: none;
+}
+.card-body {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.judul, .desc{
+	padding: 0px 10px;
 }
