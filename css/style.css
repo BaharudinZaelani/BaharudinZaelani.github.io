@@ -18,6 +18,9 @@ body {
 .judul, .desc{
 	padding: 0px 10px;
 }
+.bg-zaw {
+	background-color: #eee;
+}
 @media (min-width: 992px) {
 	.sidebar {
 		position: -webkit-sticky;
