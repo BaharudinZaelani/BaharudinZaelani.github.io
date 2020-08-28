@@ -90,10 +90,17 @@
 			width: 100%;
 		}
 		.ppq button{
-		    width: 100%;
+		    width: 50%;
 		}
 		.user:focus {
 		    outline: none;
+		}
+		.tiga {
+			height: 100vh;
+			display: grid;
+			align-content: center;
+			text-align: center;
+			align-items: center;
 		}
 		@media screen and ( max-width: 700px ){
 			body {
@@ -108,11 +115,6 @@
 			.dua {
 				height: auto;
 			}
-		}
-		.tiga {
-		    display: grid;
-			height: 100vh;
-			align-items: center;
 		}
 		@media screen and ( max-width: 560px ){
 			body {
@@ -191,7 +193,7 @@
 			<div class="col-md-6 bagtilu-a">
 				<h1>Pacari Semua Orang ...</h1>
 				<p>Buat harimu menyenangkan dengan menjadi buaya/L0nT bangS4t!..</p>
-				<a href="#tiga" class="btn btn-primary">Lo-In</a>
+				<a id="login" href="#tiga" class="btn btn-primary">Lo-In</a>
 			</div>
 			<div class="col-md-6">
 				<img src="https://baharudinzaelani.github.io/test1/icon1/pacarisemua.png" class="img-fluid">
@@ -199,13 +201,20 @@
 		</div>
 	</div>
 
+	<!-- sub cont3-4 -->
+	<div class="container-fluid bg-light card-body">
+		<div class="container text-right">
+			<p>Bekerja sama dengan kami, Website sedang pengembangan, kamu yang membuka ini adalah "TESTER"</p>
+		</div>
+	</div>
+
 	<!-- cont4 login -->
-	<div class="container-fluid card-body tiga" id="tiga">
+	<div class="container card-body tiga" id="tiga">
 		<div class="row">
-			<div class="col-md-4">
-				
+			<div class="col-md-6">
+				<img src="icon1/login.png" class="img-fluid">
 			</div>
-		  <div class="col-md card-body shadow">
+		  <div class="col-md-6 card-body">
 			  <form method="post">
 				<div class="input-group">
 				  <label>User Name</label>
@@ -215,11 +224,18 @@
 				  <label>Password</label>
 				  <input class="user" type="password" name="password"/>
 				</div>
-				<div class="container ppq text-center mt-4">
+				<div class="ppq text-right mt-4">
 				  <button class="btn btn-primary">Login</button>
 				</div>
 			  </form>
 			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<hr>
+		<div class="card-body text-center" style="color: #4f9ff5;">
+			<p>Made with ♥ By TheZaww</p>
 		</div>
 	</div>
 
@@ -288,6 +304,10 @@
 		setTimeout(function(){
 			$('.satu').css('display', 'none')
 		}, 90)
+	})
+	$('#login').click(function(){
+		$('body').css('overflow', 'auto')
+		// $('.dua').css('height', '60vh')
 	})
 </script>
 </body>
