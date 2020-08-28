@@ -82,6 +82,19 @@
 		.dua .btn {
 			width: 50%;
 		}
+		.user {
+		    border-top: 0;
+			border-right: 0;
+			border-left: 0;
+			border-bottom: 2px solid blue;
+			width: 100%;
+		}
+		.ppq button{
+		    width: 100%;
+		}
+		.user:focus {
+		    outline: none;
+		}
 		@media screen and ( max-width: 700px ){
 			body {
 				overflow: auto;
@@ -95,6 +108,11 @@
 			.dua {
 				height: auto;
 			}
+		}
+		.tiga {
+		    display: grid;
+			height: 100vh;
+			align-items: center;
 		}
 		@media screen and ( max-width: 560px ){
 			body {
@@ -123,13 +141,15 @@
 	</div>
 </div>
 <div class="loader">
-	<img src="zaw.gif" class="img-fluid">
+	<img src="https://baharudinzaelani.github.io/test1/zaw.gif" class="img-fluid">
 </div>
+
+
 	<!-- cont1 -->
 	<div class="container card-body start">
 		<div class="row">
 			<div class="col-md-6">
-				<img src="icon1/manusiachat.png" class="img-fluid">
+				<img src="https://baharudinzaelani.github.io/test1/icon1/manusiachat.png" class="img-fluid">
 			</div>
 			<div class="col-md-6">
 				<div class="cc">
@@ -160,7 +180,7 @@
 					</div>
 				</div>
 			<div class="col-md-6">
-				<img src="icon1/ihasu.png" class="img-fluid">
+				<img src="https://baharudinzaelani.github.io/test1/icon1/ihasu.png" class="img-fluid">
 			</div>
 		</div>
 	</div>
@@ -174,18 +194,32 @@
 				<a href="#tiga" class="btn btn-primary">Lo-In</a>
 			</div>
 			<div class="col-md-6">
-				<img src="icon1/pacarisemua.png" class="img-fluid">
+				<img src="https://baharudinzaelani.github.io/test1/icon1/pacarisemua.png" class="img-fluid">
 			</div>
 		</div>
 	</div>
 
-	<!-- cont3 -->
-	<div class="container card-body dua" id="tiga">
+	<!-- cont4 login -->
+	<div class="container-fluid card-body tiga" id="tiga">
 		<div class="row">
-			<div class="col-md-6">
-				wey asw
+			<div class="col-md-4">
+				
 			</div>
-			<div class="col-md-6"></div>
+		  <div class="col-md card-body shadow">
+			  <form method="post">
+				<div class="input-group">
+				  <label>User Name</label>
+				  <input class="user" type="text" name="user"/>
+				</div>
+				<div class="input-group mt-4">
+				  <label>Password</label>
+				  <input class="user" type="password" name="password"/>
+				</div>
+				<div class="container ppq text-center mt-4">
+				  <button class="btn btn-primary">Login</button>
+				</div>
+			  </form>
+			</div>
 		</div>
 	</div>
 
