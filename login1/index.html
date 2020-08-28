@@ -14,7 +14,7 @@
 		*{
 			transition: 0.4s;
 		}
-		body {
+		body { 
 			overflow: hidden;
 			padding: 0;
 			margin: 0;
@@ -88,12 +88,14 @@
 			border-left: 0;
 			border-bottom: 2px solid blue;
 			width: 100%;
+			padding: 9px;
 		}
 		.ppq button{
 		    width: 50%;
 		}
 		.user:focus {
 		    outline: none;
+		    background-color: transparent;
 		}
 		.tiga {
 			height: 100vh;
@@ -101,6 +103,17 @@
 			align-content: center;
 			text-align: center;
 			align-items: center;
+		}
+		.img-fluid {
+			box-shadow: 11px 13px 0 0px #0000004f;
+		    border: 2px solid grey;
+		}
+		.bagtilu-a h1, 
+		.bagtilu-a p
+		{
+			background-color: #5a535369;
+		    color: #f9f9f9;
+		    text-shadow: 0 0 7px black;
 		}
 		@media screen and ( max-width: 700px ){
 			body {
@@ -119,6 +132,9 @@
 		@media screen and ( max-width: 560px ){
 			body {
 				overflow: hidden;
+			}
+			.col-md-6 {
+				margin-top: 15px;
 			}
 			.start {
 				height: 100vh;	
@@ -283,6 +299,7 @@
 
 	$(document).ready(function(){
 		loader('start')
+		$
 	})
 
 	//* event
@@ -304,6 +321,9 @@
 		setTimeout(function(){
 			$('.satu').css('display', 'none')
 		}, 90)
+		$('.dua').css('background', 'url("icon1/start.jpg")')
+		$('.dua').css('background-position', 'center')
+		$('.dua').css('background-attachment', 'fixed')
 	})
 	$('#login').click(function(){
 		$('body').css('overflow', 'auto')
