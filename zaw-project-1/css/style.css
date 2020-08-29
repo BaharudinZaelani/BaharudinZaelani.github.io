@@ -1,0 +1,142 @@
+
+html {
+	scroll-behavior: smooth;
+}
+*{
+	transition: 0.4s;
+}
+body { 
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	font-family: 'Balsamiq Sans', cursive;
+}
+.cc {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	height: 100%;
+	text-align: center;
+}
+.start {
+	height: 100vh;
+	display: grid;
+	opacity: 0;
+	align-content: center;
+}
+.satu {
+	/*opacity: 0;*/
+	display: none;
+	/*margin-top: -100px;*/
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.loader {
+	display: grid;
+	height: 100vh;
+	position: absolute;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+}
+.btn {
+	border-radius: 0;
+	box-shadow: 5px 7px #00000038;
+}
+.bagdua-a {
+	z-index: 1;
+}
+.bagdua-a .btn {
+	width: 100%;
+}
+.button {
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr;
+}
+.none {
+	display: none;
+}
+.dua {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	align-content: center;
+}
+.bagtilu-a{
+	z-index: 99;
+}
+.dua .btn {
+	width: 50%;
+}
+.user {
+    border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 2px solid blue;
+	width: 100%;
+	padding: 9px;
+}
+.ppq button{
+    width: 50%;
+}
+.user:focus {
+    outline: none;
+    background-color: transparent;
+}
+.tiga {
+	height: 100vh;
+	display: grid;
+	align-content: center;
+	text-align: center;
+	align-items: center;
+}
+.img-fluid {
+	box-shadow: 11px 13px 0 0px #0000004f;
+    border: 2px solid grey;
+}
+.bagtilu-a h1, 
+.bagtilu-a p
+{
+	background-color: #5a535369;
+    color: #f9f9f9;
+    text-shadow: 0 0 7px black;
+}
+@media screen and ( max-width: 700px ){
+	body {
+		overflow: auto;
+	}
+	.start {
+		height: auto;	
+	}
+	.satu {
+		height: auto;
+	}
+	.dua {
+		height: auto;
+	}
+}
+@media screen and ( max-width: 560px ){
+	body {
+		overflow: hidden;
+	}
+	.col-md-6 {
+		margin-top: 15px;
+	}
+	.start {
+		height: 100vh;	
+	}
+	.satu {
+		height: 100vh;
+	}
+	.dua {
+		height: 100vh;
+	}
+	h1 {
+		font-size: 1.5rem;
+	}
+}
