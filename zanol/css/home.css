@@ -15,8 +15,11 @@ input.form-control.mr-sm-2 {
     font-weight: 600;
 }
 .navbar-dark .navbar-toggler {
-    color: rgba(255,255,255,.5);
-    border-color: rgb(255 255 255);
+    color: white;
+    transform: rotate(0deg);
+}
+.navbar-toggler:hover {
+	transform: rotate(180deg);
 }
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.container {
     font-weight: 600;
@@ -42,6 +45,24 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.container {
     color: rgb(0 0 0);
     border-color: none;
     margin-left: auto;
+}
+.navbar-toggler {
+	border: 0;
+    transition: 0.4s;
+}
+.navbar-toggler:focus {
+	outline: none;
+	border: none;
+}
+.rt {
+	margin-top: 9px;
+	padding: 0;
+}
+.section-1 {
+	margin: 9px 0 0 0;
+}
+.img-thumbnail {
+	border-radius: 0;
 }
 @media ( max-width: 640px ) {
 	button.btn.btn-success.my-2.my-sm-0 {
