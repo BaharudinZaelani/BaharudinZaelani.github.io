@@ -59,16 +59,84 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.container {
 	padding: 0;
 	font-family: 'Poppins', sans-serif;
 }
-.section-1 {
-	margin: 9px 0 0 0;
+.section {
+	margin: 9px 0;
 }
 .img-thumbnail {
 	border-radius: 0;
+}
+.p-none {
+	padding: 0 !important;
+}
+.label {
+	margin-bottom: 12px;
+}
+.label h1,h2,h3,h4,h5,h6{
+	font-weight: 600;
+	text-transform: uppercase;
+	height: 100%;
+	background-color: white;
+	display: inline;
+	padding: 5px;
+}
+.garis {
+	height: 3px;
+	background-color: #a70836 !important;
+	margin-top: -15px;
+}
+.image {
+	position: relative;
+	z-index: 1;
+}
+.rate {
+    background-color: #0000008a;
+    padding: 2px;
+    top: 0;
+    position: absolute;
+    z-index: 999;
+    color: white;
+}
+.rate span{
+	margin: 0 6px;
+	font-size: 0.8rem;
+}
+.rate span svg {
+	margin-top: -5px;
+	margin-right: 5px;
+	color: yellow;
+}
+.kump {
+	display: grid;
+	grid-gap: 15px;
+	grid-template-columns: repeat(auto-fill, 150px);
+}
+.durasi span {
+	margin: 0 6px;
+	font-size: 0.8rem;
+}
+.durasi span svg {
+	margin-top: -3px;
+}
+.durasi {
+    background-color: #0000008a;
+    padding: 2px;
+    bottom: 0;
+    position: absolute;
+    z-index: 999;
+    color: white;
+    right: 0;
+}
+.prop {
+	padding: 2px;
 }
 @media ( max-width: 640px ) {
 	button.btn.btn-success.my-2.my-sm-0 {
 	    margin-left: -10px;
 	    display: none;
+	}
+	.kump {
+		justify-content: center;
+		grid-gap: 11px;
 	}
 	input.form-control.mr-sm-2 {
 		width: 100%;
