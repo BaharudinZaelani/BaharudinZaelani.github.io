@@ -110,6 +110,9 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.container {
 	grid-gap: 15px;
 	grid-template-columns: repeat(auto-fill, 150px);
 }
+.dua-kump {
+	justify-content: center;
+} 
 .durasi span {
 	margin: 0 6px;
 	font-size: 0.8rem;
@@ -128,6 +131,27 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.container {
 }
 .prop {
 	padding: 2px;
+}
+.carousel-indicators li {
+	background-color: #a70836 !important;
+}
+.bi-chevron-double-left {
+	transition: 0.4s;
+    color: red;
+    font-size: 2rem;
+}
+.carousel-control-prev:hover .bi-chevron-double-left {
+	margin-right: 12px;
+    font-size: 2rem;
+}
+.bi-chevron-double-right {
+	transition: 0.4s;
+    color: red;
+    font-size: 2rem;
+}
+.carousel-control-next:hover .bi-chevron-double-right {
+	margin-left: 12px;
+    font-size: 2rem;
 }
 @media ( max-width: 640px ) {
 	button.btn.btn-success.my-2.my-sm-0 {
