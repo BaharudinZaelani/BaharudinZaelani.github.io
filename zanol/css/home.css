@@ -154,6 +154,18 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.container {
     font-size: 2rem;
 }
 @media ( max-width: 640px ) {
+	.rekomendasi {
+		display: none;
+	}
+	.row {
+		margin: 0;
+	}
+	.col-md, .col-md-4 {
+		padding: 0;
+	}
+	.col-md-4 {
+		margin-top: 5px;
+	}
 	button.btn.btn-success.my-2.my-sm-0 {
 	    margin-left: -10px;
 	    display: none;
