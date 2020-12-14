@@ -68,6 +68,14 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.container {
 .p-none {
 	padding: 0 !important;
 }
+.shortcut {
+	text-align: center;
+}
+.shortcut a {
+	margin-top: 2px;
+	width: 45px;
+	text-transform: uppercase;
+}
 .label {
 	margin-bottom: 12px;
 }
@@ -160,6 +168,20 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.container {
 }
 .form-control {
 	border-radius: 0;
+}
+.hax {
+	position: relative;
+}
+.hax div {
+}
+.hax .judul {
+	position: absolute;
+	top: 0;
+	width: 10%;
+	text-align: center;
+}
+.hax img {
+	width: 100%;
 }
 @media ( max-width: 640px ) {
 	.rekomendasi {
