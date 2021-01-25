@@ -1,0 +1,81 @@
+*{
+	transition: 0.2s;
+}
+.btn {
+	border-radius: 0;
+}
+@media (max-width: 640px) { 
+	.p-4 {
+		padding: 0!important;
+	}
+	.nav-zaw {
+		background-color: #012739;
+	}
+	.zaw-padding {
+		margin: 50px 0;
+	}
+	.sec-1 {
+		padding: 0;
+	}
+	.sec-1 .zaw-kun .name {
+		background-image: url('../img/header.jpg');
+		background-attachment: fixed;
+		margin-top: 0;
+	}
+	.sec-1 .zaw-kun .tentang {
+		
+	}
+}
+@media (min-width: 992px) {
+	body{
+		background-color: #012739;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+	nav a img {
+		border: 1px solid white;
+		border-radius: 3px;
+	}
+	.nav-zaw {
+		background-color: #012739;
+	}
+	nav a {
+		color: white;
+	}
+	div	{
+		color: white;
+	}
+	.bahar {
+		font-size: 5rem;
+	    font-weight: bold;
+	}
+	.zaw-padding {
+		padding-left: 3rem!important;
+	}
+	.sec-1 {
+		height: 70vh;
+	}
+	.card {
+		background-color: #e2e2e257 !important;
+		border-radius: 0;
+	}
+	.zaw-kun {
+		padding-top: 50px;
+	}
+	.card a {
+		color: black;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #bdc3c7;
+	}
+	.sec-2, .sec-4 {
+		background-color: #2c3e50;
+	}
+	.height-1 {
+		height: 17px;
+		line-height: 17px;
+	}
+	.zaw div {
+		margin-top: 8px;
+	}
+}
