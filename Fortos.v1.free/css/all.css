@@ -232,7 +232,7 @@ input:focus {
 	font-size: 2rem;
 }
 .carousel-item {
-	height: 80vh !important;
+	height: 100vh !important;
 }
 .beli {
 	width: 80%;
